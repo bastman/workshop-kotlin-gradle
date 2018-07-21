@@ -9,4 +9,11 @@
 
 rootProject.name = "workshop-kotlin-gradle"
 
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+}
+
 

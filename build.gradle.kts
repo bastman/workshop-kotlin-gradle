@@ -1,9 +1,13 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    // Gradle built-in
     java
     kotlin("jvm") version "1.2.51"
     application
+
+    // From the Gradle Plugin Portal
+    id("com.bmuschko.docker-java-application") version "3.1.0"
 }
 
 group = "com.example"
