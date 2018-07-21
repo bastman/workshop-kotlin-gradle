@@ -3,3 +3,7 @@ workshop gradle --dsl kotlin
 
 ## track idea
 
+``` 
+ $ ./gradlew run
+ 
+```
