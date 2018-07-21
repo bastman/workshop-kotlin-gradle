@@ -61,3 +61,8 @@ workshop gradle --dsl kotlin
 - https://guides.gradle.org/creating-multi-project-builds/
 - https://docs.gradle.org/current/userguide/multi_project_builds.html
 - https://guides.gradle.org/building-kotlin-jvm-libraries/
+
+### gradle kostlin dsl 
+- https://guides.gradle.org/building-kotlin-jvm-libraries/
+- https://github.com/gradle/kotlin-dsl/tree/master/samples
+- https://github.com/gradle/kotlin-dsl/tree/master/doc/getting-started
