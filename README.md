@@ -3,11 +3,35 @@ workshop gradle --dsl kotlin
 
 ## lesson 01 - basic gradle dsl=groovy
 
+- see: https://docs.gradle.org/4.9/userguide/build_init_plugin.html
+
+  
+    
 ### generate project skeleton
 
 ```
- # generate project skeleton (application-type="basic" dsl="groovy)
+ # generate project skeleton (built-init-type="basic" dsl="groovy)
  
+ $ gradle init --type=<built-init-type> --dsl=<dsl>
+ 
+```
+
+```
+built-init-type(s): 
+    - basic (DEFAULT)
+    - pom, 
+    - java-library, java-application
+    - scala-library, scala-application
+    - groovy-library, groovy-application
+    
+dsl(s):
+    - groovy (default)
+    - kotlin    
+```  
+
+
+# generate project skeleton (built-init-type="basic" dsl="groovy)
+``` 
  $ gradle init
  
 ```
